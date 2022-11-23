@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar{
+  background-color: red;
+  height: 45px;
+  width: 550px;
+  text-align: center;
+}
+
+.navbar--text{
+  padding-top: 100px;
+  font-size: 30px;
+  color: white;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.card--left {
+  max-width: 300%;
+  max-height: 400px;
+}
+
+.card--image{
+  width: 170px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.card--informations{
+  padding: 25px;
+}
+
+.card--location--text{
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.card--text{
+  font-size: 10px;
+  text-decoration: underline;
+  color: gray
+}
+
+.card--title{
+  padding-top: 1px;
+}
+.card--title--text{
+  font-size: 23px;
+  font-weight: bold ;
+}
+.card--date{
+  padding-top: 10px;
+}
+
+.card--date--text{
+  font-size: 13px;
+  font-weight: bold;
+
+}
+
+.card--desc{
+  padding-top: 0;
+  width: 300px;
+}
+
+.card--desc--text{
+  font-size: 11px;
+}
+
+
+
